@@ -69,5 +69,3 @@ class KnightPathFinder
   end
 
 end
-
-KnightPathFinder.new([0,0]).find_path([6,2])
