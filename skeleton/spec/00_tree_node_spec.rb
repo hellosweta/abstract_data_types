@@ -129,7 +129,7 @@ describe 'Searchable' do
       [0, 1, 3, 4].each do |index|
         expect(nodes[index]).to receive(:dfs).and_call_original.ordered
       end
-      expect(nodes.first.dfs('e')).to equal(nodes[4])
+      expect(nodes.first.dfs('g')).to equal(nodes[4])
     end
   end
 
